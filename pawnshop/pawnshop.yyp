@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -33,8 +33,16 @@
   "MetaData": {
     "IDEVersion": "2023.2.1.75",
   },
-  "resources": [],
-  "RoomOrderNodes": [],
+  "resources": [
+    {"id":{"name":"scr_rm_setup","path":"scripts/scr_rm_setup/scr_rm_setup.yy",},},
+    {"id":{"name":"obj_sys_global_var","path":"objects/obj_sys_global_var/obj_sys_global_var.yy",},},
+    {"id":{"name":"scr_init","path":"scripts/scr_init/scr_init.yy",},},
+    {"id":{"name":"obj_sys_init","path":"objects/obj_sys_init/obj_sys_init.yy",},},
+    {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+  ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
