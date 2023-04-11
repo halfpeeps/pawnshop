@@ -40,3 +40,5 @@ if(obj_sys_input_default.inputS = true){
 
 x += move_temp_x
 y += move_temp_y
+
+image_index = direction_facing 
