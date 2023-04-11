@@ -17,7 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"scr_init","order":1,"path":"scripts/scr_init/scr_init.yy",},
-    {"name":"obj_sys_init","order":1,"path":"objects/obj_sys_init/obj_sys_init.yy",},
+    {"name":"rm_tes_01","order":1,"path":"rooms/rm_tes_01/rm_tes_01.yy",},
+    {"name":"spr_sheet_player_test","order":1,"path":"sprites/spr_sheet_player_test/spr_sheet_player_test.yy",},
   ],
 }
