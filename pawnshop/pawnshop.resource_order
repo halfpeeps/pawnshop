@@ -26,6 +26,7 @@
     {"name":"obj_customer_counter","order":2,"path":"objects/obj_customer_counter/obj_customer_counter.yy",},
     {"name":"rm_tes_01","order":1,"path":"rooms/rm_tes_01/rm_tes_01.yy",},
     {"name":"spr_counter_02","order":2,"path":"sprites/spr_counter_02/spr_counter_02.yy",},
+    {"name":"obj_sys_solid","order":5,"path":"objects/obj_sys_solid/obj_sys_solid.yy",},
     {"name":"spr_sheet_player_test","order":1,"path":"sprites/spr_sheet_player_test/spr_sheet_player_test.yy",},
   ],
 }
