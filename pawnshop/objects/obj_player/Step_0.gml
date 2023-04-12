@@ -43,6 +43,11 @@ if(in_ui = false){
 
 	x += move_temp_x
 	y += move_temp_y
+}
 
+if(in_ui = true){
+	image_index = image_index
+}
+else {
 	image_index = direction_facing
 }
