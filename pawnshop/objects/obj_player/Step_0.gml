@@ -12,7 +12,7 @@ if(in_ui = false){
 	if(obj_sys_input_default.inputW = true){
 		move_temp_y -= walk_speed
 		direction_facing = 0
-		if(show_player_input_detection = true){
+		if(obj_sys_console_commands.show_player_input_detection = true){
 			show_debug_message("! obj_player detected key press")
 		}
 	}
@@ -20,7 +20,7 @@ if(in_ui = false){
 	if(obj_sys_input_default.inputD = true){
 		move_temp_x += walk_speed
 		direction_facing = 2
-		if(show_player_input_detection = true){
+		if(obj_sys_console_commands.show_player_input_detection = true){
 		show_debug_message("! obj_player detected key press")
 		}
 	}
@@ -28,7 +28,7 @@ if(in_ui = false){
 	if(obj_sys_input_default.inputA = true){
 		move_temp_x -= walk_speed
 		direction_facing = 1
-		if(show_player_input_detection = true){
+		if(obj_sys_console_commands.show_player_input_detection = true){
 		show_debug_message("! obj_player detected key press")
 		}
 	}
@@ -36,7 +36,7 @@ if(in_ui = false){
 	if(obj_sys_input_default.inputS = true){
 		move_temp_y += walk_speed
 		direction_facing = 3
-		if(show_player_input_detection = true){
+		if(obj_sys_console_commands.show_player_input_detection = true){
 		show_debug_message("! obj_player detected key press")
 		}
 	}

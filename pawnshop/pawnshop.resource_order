@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_sys_console_commands","order":4,"path":"objects/obj_sys_console_commands/obj_sys_console_commands.yy",},
     {"name":"obj_trigger_customer_counter","order":3,"path":"objects/obj_trigger_customer_counter/obj_trigger_customer_counter.yy",},
     {"name":"obj_sys_input_default","order":1,"path":"objects/obj_sys_input_default/obj_sys_input_default.yy",},
     {"name":"obj_customer_counter","order":2,"path":"objects/obj_customer_counter/obj_customer_counter.yy",},
