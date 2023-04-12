@@ -34,11 +34,15 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"obj_trigger_customer_counter","path":"objects/obj_trigger_customer_counter/obj_trigger_customer_counter.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_player_test","path":"sprites/spr_player_test/spr_player_test.yy",},},
     {"id":{"name":"obj_sys_input_default","path":"objects/obj_sys_input_default/obj_sys_input_default.yy",},},
+    {"id":{"name":"obj_customer_counter","path":"objects/obj_customer_counter/obj_customer_counter.yy",},},
     {"id":{"name":"rm_tes_01","path":"rooms/rm_tes_01/rm_tes_01.yy",},},
+    {"id":{"name":"spr_counter_02","path":"sprites/spr_counter_02/spr_counter_02.yy",},},
     {"id":{"name":"spr_sheet_player_test","path":"sprites/spr_sheet_player_test/spr_sheet_player_test.yy",},},
+    {"id":{"name":"spr_trigger_customer_counter","path":"sprites/spr_trigger_customer_counter/spr_trigger_customer_counter.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
   ],
   "RoomOrderNodes": [

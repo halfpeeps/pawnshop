@@ -25,3 +25,12 @@ if keyboard_check(ord("D")){
 } else{
 	inputD = false
 }
+
+
+
+//E
+if keyboard_check(ord("E")){
+	inputE = true
+} else{
+	inputE = false
+}
