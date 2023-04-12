@@ -1,3 +1,5 @@
+//UI toggle
+
 if(!obj_sys_global_var.in_ui){
 	if(instance_exists(obj_player)){
 		if(place_meeting(obj_trigger_customer_counter.x, obj_trigger_customer_counter.y, obj_player)){
