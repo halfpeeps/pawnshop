@@ -1,5 +1,5 @@
 //Basic movement
-if(in_ui = false){
+if(obj_sys_global_var.in_ui = false){
 	
 
 	if(!instance_exists(obj_sys_input_default))
@@ -45,7 +45,7 @@ if(in_ui = false){
 	y += move_temp_y
 }
 
-if(in_ui = true){
+if(obj_sys_global_var.in_ui = true){
 	image_index = image_index
 }
 else {
