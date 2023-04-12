@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "obj_trigger",
+    "path": "folders/Objects/obj_sys/obj_trigger.yy",
   },
   "parentObjectId": null,
   "persistent": false,
