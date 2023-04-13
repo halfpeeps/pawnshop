@@ -18,6 +18,7 @@
     {"name":"spr_trigger","order":4,"path":"folders/Sprites/spr_trigger.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Animations","order":16,"path":"folders/Animations.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_sys_global_var","order":1,"path":"objects/obj_sys_global_var/obj_sys_global_var.yy",},
