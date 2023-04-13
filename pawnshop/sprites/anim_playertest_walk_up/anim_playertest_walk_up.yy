@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_sheet_player_test",
+  "name": "anim_playertest_walk_up",
   "bbox_bottom": 1279,
   "bbox_left": 0,
   "bbox_right": 1791,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"39a8af28-c72d-41c5-af0e-ea2707df43d9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9e2948a8-096c-4a0f-b509-166f2c729b9c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 1312,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7fbd6f4f-26a7-4b48-9744-3f3eac074ff6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"731c1e68-0ba5-4fda-844d-e298e086cf40","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Animations",
+    "path": "folders/Animations.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_sheet_player_test",
+    "name": "anim_playertest_walk_up",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"39a8af28-c72d-41c5-af0e-ea2707df43d9","path":"sprites/spr_sheet_player_test/spr_sheet_player_test.yy",},},},"Disabled":false,"id":"604ca131-f13e-4b86-8779-7328b66829de","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9e2948a8-096c-4a0f-b509-166f2c729b9c","path":"sprites/anim_playertest_walk_up/anim_playertest_walk_up.yy",},},},"Disabled":false,"id":"d2858e9d-1b87-48a5-9a38-cb44a2354af3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
