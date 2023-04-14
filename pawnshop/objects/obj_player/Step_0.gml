@@ -49,5 +49,72 @@ if(obj_sys_global_var.in_ui = true){
 	image_index = image_index
 }
 else {
-	image_index = direction_facing
+	if(!anim_active){
+		image_index = direction_facing
+	}
 }
+
+
+//detect walking
+if(x != xprevious){
+	is_walking = true
+}
+else if(y != yprevious){
+	is_walking = true
+}
+else {
+	is_walking = false
+}
+
+
+//walk animation
+if(is_walking){
+	if(!anim_active){
+		anim_direction = direction_facing
+		if(direction_facing = 0){
+			sprite_index = anim_playertest_walk_up
+			was_walking = true
+		}
+		if(direction_facing = 2){
+			sprite_index = anim_playertest_walk_right
+			was_walking = true
+		}
+		if(direction_facing = 1){
+			sprite_index = anim_playertest_walk_left
+			was_walking = true
+		}
+		if(direction_facing = 3){
+			sprite_index = anim_playertest_walk_down
+			was_walking = true
+		}
+	
+		image_speed = 2
+		anim_active = true
+	}
+}
+else if(was_walking)
+{
+	sprite_index = idle_sprite
+	image_speed = 0
+	was_walking = false
+	anim_active = false
+	show_debug_message("anim deactivated")
+}
+
+if(is_walking){
+	if(anim_direction != direction_facing){
+		if(direction_facing = 0){
+			sprite_index = anim_playertest_walk_up
+		}
+		if(direction_facing = 2){
+			sprite_index = anim_playertest_walk_right
+		}
+		if(direction_facing = 1){
+			sprite_index = anim_playertest_walk_left
+		}
+		if(direction_facing = 3){
+			sprite_index = anim_playertest_walk_down
+		}
+	}
+}
+		

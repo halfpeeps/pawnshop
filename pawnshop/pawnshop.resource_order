@@ -25,7 +25,7 @@
   "ResourceOrderSettings": [
     {"name":"anim_playertest_walk_left","order":3,"path":"sprites/anim_playertest_walk_left/anim_playertest_walk_left.yy",},
     {"name":"obj_sys_global_var","order":1,"path":"objects/obj_sys_global_var/obj_sys_global_var.yy",},
-    {"name":"anim_playertest_walk_right","order":1,"path":"sprites/anim_playertest_walk_right/anim_playertest_walk_right.yy",},
+    {"name":"anim_playertest_walk_up","order":1,"path":"sprites/anim_playertest_walk_up/anim_playertest_walk_up.yy",},
     {"name":"obj_sys_input_default","order":3,"path":"objects/obj_sys_input_default/obj_sys_input_default.yy",},
     {"name":"obj_sys_init","order":2,"path":"objects/obj_sys_init/obj_sys_init.yy",},
     {"name":"obj_customer_counter","order":2,"path":"objects/obj_customer_counter/obj_customer_counter.yy",},
