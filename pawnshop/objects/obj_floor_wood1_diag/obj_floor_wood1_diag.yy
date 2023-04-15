@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "obj_floors",
+    "path": "folders/Objects/obj_rooms/obj_floors.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -32,6 +32,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_trigger","folderPath":"folders/Sprites/spr_trigger.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_rooms","folderPath":"folders/Objects/obj_rooms.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_floors","folderPath":"folders/Objects/obj_rooms/obj_floors.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
