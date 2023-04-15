@@ -1,4 +1,4 @@
-//UI toggle
+#region ToggleUI
 
 if(!obj_sys_global_var.in_ui){
 	if(instance_exists(obj_player)){
@@ -58,3 +58,5 @@ if(obj_sys_global_var.exit_ui_cooldown){
 		cooldown_count = 0
 	}
 }
+
+#endregion

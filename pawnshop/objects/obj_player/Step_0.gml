@@ -1,4 +1,4 @@
-//Basic movement
+#region Movement
 if(obj_sys_global_var.in_ui = false){
 	
 
@@ -54,7 +54,7 @@ else {
 	}
 }
 
-
+#region Animation
 //detect walking
 if(x != xprevious){
 	is_walking = true
@@ -117,4 +117,6 @@ if(is_walking){
 		}
 	}
 }
-		
+#endregion
+#endregion
+
