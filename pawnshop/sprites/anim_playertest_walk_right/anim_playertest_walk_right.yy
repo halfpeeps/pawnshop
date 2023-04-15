@@ -30,8 +30,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Animations",
-    "path": "folders/Animations.yy",
+    "name": "anim_player_walkcycles",
+    "path": "folders/Animations/anim_player/anim_player_walkcycles.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

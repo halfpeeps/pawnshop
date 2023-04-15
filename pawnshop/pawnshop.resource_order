@@ -23,11 +23,14 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"obj_rooms","order":9,"path":"folders/Objects/obj_rooms.yy",},
     {"name":"obj_floors","order":1,"path":"folders/Objects/obj_rooms/obj_floors.yy",},
+    {"name":"anim_player","order":4,"path":"folders/Animations/anim_player.yy",},
+    {"name":"anim_player_walkcycles","order":4,"path":"folders/Animations/anim_player/anim_player_walkcycles.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"anim_playertest_walk_left","order":3,"path":"sprites/anim_playertest_walk_left/anim_playertest_walk_left.yy",},
+    {"name":"anim_playertest_walk_right","order":2,"path":"sprites/anim_playertest_walk_right/anim_playertest_walk_right.yy",},
+    {"name":"anim_playertest_walk_left","order":1,"path":"sprites/anim_playertest_walk_left/anim_playertest_walk_left.yy",},
     {"name":"obj_sys_global_var","order":1,"path":"objects/obj_sys_global_var/obj_sys_global_var.yy",},
-    {"name":"anim_playertest_walk_up","order":1,"path":"sprites/anim_playertest_walk_up/anim_playertest_walk_up.yy",},
+    {"name":"anim_playertest_walk_up","order":3,"path":"sprites/anim_playertest_walk_up/anim_playertest_walk_up.yy",},
     {"name":"obj_sys_input_default","order":3,"path":"objects/obj_sys_input_default/obj_sys_input_default.yy",},
     {"name":"obj_sys_init","order":2,"path":"objects/obj_sys_init/obj_sys_init.yy",},
     {"name":"obj_customer_counter","order":2,"path":"objects/obj_customer_counter/obj_customer_counter.yy",},
@@ -36,6 +39,5 @@
     {"name":"spr_counter_02","order":2,"path":"sprites/spr_counter_02/spr_counter_02.yy",},
     {"name":"obj_sys_solid","order":5,"path":"objects/obj_sys_solid/obj_sys_solid.yy",},
     {"name":"spr_sheet_playertest","order":1,"path":"sprites/spr_sheet_playertest/spr_sheet_playertest.yy",},
-    {"name":"anim_playertest_walk_down","order":2,"path":"sprites/anim_playertest_walk_down/anim_playertest_walk_down.yy",},
   ],
 }

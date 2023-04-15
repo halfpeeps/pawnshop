@@ -34,6 +34,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_rooms","folderPath":"folders/Objects/obj_rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_floors","folderPath":"folders/Objects/obj_rooms/obj_floors.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"anim_player","folderPath":"folders/Animations/anim_player.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"anim_player_walkcycles","folderPath":"folders/Animations/anim_player/anim_player_walkcycles.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
