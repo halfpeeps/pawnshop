@@ -98,7 +98,7 @@ else if(was_walking)
 	image_speed = 0
 	was_walking = false
 	anim_active = false
-	show_debug_message("anim deactivated")
+	//show_debug_message("anim deactivated")
 }
 
 if(is_walking){
