@@ -9,7 +9,7 @@ if(obj_sys_global_var.in_ui = false){
 
 	var move_temp_x = 0
 	var move_temp_y = 0
-	if(obj_sys_input_default.inputW = true){
+	if(obj_sys_input_default.inputUp = true){
 		move_temp_y -= walk_speed
 		direction_facing = 0
 		if(obj_sys_console_commands.show_player_input_detection = true){
@@ -17,7 +17,7 @@ if(obj_sys_global_var.in_ui = false){
 		}
 	}
 
-	if(obj_sys_input_default.inputD = true){
+	if(obj_sys_input_default.inputRight = true){
 		move_temp_x += walk_speed
 		direction_facing = 2
 		if(obj_sys_console_commands.show_player_input_detection = true){
@@ -25,7 +25,7 @@ if(obj_sys_global_var.in_ui = false){
 		}
 	}
 
-	if(obj_sys_input_default.inputA = true){
+	if(obj_sys_input_default.inputLeft = true){
 		move_temp_x -= walk_speed
 		direction_facing = 1
 		if(obj_sys_console_commands.show_player_input_detection = true){
@@ -33,7 +33,7 @@ if(obj_sys_global_var.in_ui = false){
 		}
 	}
 
-	if(obj_sys_input_default.inputS = true){
+	if(obj_sys_input_default.inputDown = true){
 		move_temp_y += walk_speed
 		direction_facing = 3
 		if(obj_sys_console_commands.show_player_input_detection = true){

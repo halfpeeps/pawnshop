@@ -1,36 +1,36 @@
 //W
 if keyboard_check(ord("W")){
-	inputW = true
+	inputUp = true
 } else{
-	inputW = false
+	inputUp = false
 }
 
 //A
 if keyboard_check(ord("A")){
-	inputA = true
+	inputLeft = true
 } else{
-	inputA = false
+	inputLeft = false
 }
 
 //S
 if keyboard_check(ord("S")){
-	inputS = true
+	inputDown = true
 } else{
-	inputS = false
+	inputDown = false
 }
 
 //D
 if keyboard_check(ord("D")){
-	inputD = true
+	inputRight = true
 } else{
-	inputD = false
+	inputRight = false
 }
 
 
 
 //E
 if keyboard_check(ord("E")){
-	inputE = true
+	inputInteract = true
 } else{
-	inputE = false
+	inputInteract = false
 }

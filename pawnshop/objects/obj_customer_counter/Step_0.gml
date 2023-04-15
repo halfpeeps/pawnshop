@@ -3,7 +3,7 @@
 if(!obj_sys_global_var.in_ui){
 	if(instance_exists(obj_player)){
 		if(place_meeting(obj_trigger_customer_counter.x, obj_trigger_customer_counter.y, obj_player)){
-			if(obj_sys_input_default.inputE = true){
+			if(obj_sys_input_default.inputInteract = true){
 				if(!obj_sys_global_var.exit_ui_cooldown){
 					
 					obj_sys_global_var.in_ui = true
@@ -31,7 +31,7 @@ if(obj_sys_global_var.in_ui_cooldown){
 
 if(obj_sys_global_var.in_ui){
 	if(!obj_sys_global_var.in_ui_cooldown){
-		if(obj_sys_input_default.inputE){
+		if(obj_sys_input_default.inputInteract){
 			obj_sys_global_var.in_ui = false
 			obj_sys_global_var.exit_ui_cooldown = true
 			cooldown_count = obj_sys_global_var.exit_ui_cooldown

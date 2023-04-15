@@ -1,4 +1,4 @@
-//inputs
+//inputDown
 show_player_input_detection = false
 
 

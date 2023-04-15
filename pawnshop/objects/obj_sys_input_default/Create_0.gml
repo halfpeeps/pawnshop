@@ -1,6 +1,6 @@
-inputW = false
-inputA = false
-inputS = false
-inputD = false
+inputUp = false
+inputLeft = false
+inputDown = false
+inputRight = false
 
-inputE = false
+inputInteract = false
