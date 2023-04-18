@@ -19,6 +19,7 @@ if(exiting_queue){
 	{
 		instance_destroy(self)
 	}
+}
 
 
 #endregion
