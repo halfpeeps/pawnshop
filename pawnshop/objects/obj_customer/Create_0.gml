@@ -1,6 +1,10 @@
 #region Init
+x = 100
+y = 500
 entering_queue = true
 exiting_queue = false
+walk_speed = 2
+image_index = 1
 
 
 #endregion
