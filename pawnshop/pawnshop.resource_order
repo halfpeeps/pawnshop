@@ -27,6 +27,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_customer","order":10,"path":"objects/obj_customer/obj_customer.yy",},
     {"name":"anim_playertest_walk_right","order":2,"path":"sprites/anim_playertest_walk_right/anim_playertest_walk_right.yy",},
     {"name":"anim_playertest_walk_left","order":1,"path":"sprites/anim_playertest_walk_left/anim_playertest_walk_left.yy",},
     {"name":"obj_sys_global_var","order":1,"path":"objects/obj_sys_global_var/obj_sys_global_var.yy",},
