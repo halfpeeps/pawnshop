@@ -10,7 +10,7 @@ exit_ui_cooldown = false
 #region Customers
 customer_queue_count = 0
 queue_posx1 = 100
-queue_posy1 = 190
+queue_posy1 = 150
 queue_posx2 = 100
 queue_posy2 = 240
 queue_posx3 = 100
