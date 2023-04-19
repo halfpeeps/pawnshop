@@ -1,7 +1,7 @@
 #region Init
 obj_sys_global_var.customer_queue_count += 1
 x = 100
-y = 300
+y = 500
 entering_queue = true
 exiting_queue = false
 walk_speed = 2
