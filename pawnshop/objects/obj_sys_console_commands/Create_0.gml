@@ -1,3 +1,7 @@
+#region init
+trigger_customer_exit = false
+#endregion
+
 //input
 show_player_input_detection = false
 

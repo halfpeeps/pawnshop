@@ -10,11 +10,17 @@ exit_ui_cooldown = false
 #region Customers
 customer_queue_count = 0
 queue_posx1 = 100
-queue_posy1 = 150
+queue_posy1 = 180
 queue_posx2 = 100
-queue_posy2 = 240
+queue_posy2 = 230
 queue_posx3 = 100
-queue_posy3 = 290
+queue_posy3 = 280
+
+queue_gap = 50 //set depending on gap in y values above
+
+customer_walk_speed = 2
+queue_moving = false
+customer_pos1_taken = false
 
 
 

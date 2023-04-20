@@ -2,11 +2,13 @@
 obj_sys_global_var.customer_queue_count += 1
 x = 100
 y = 500
-entering_queue = true
-exiting_queue = false
-walk_speed = 2
 image_speed = 0
 image_index = 0
+entering_queue = true
+exiting_queue = false
+walk_speed = obj_sys_global_var.customer_walk_speed
+queue_moving = false
+leaving_queue = 0
 
 
 #endregion
@@ -18,6 +20,9 @@ show_debug_message(queue_pos)
 if(queue_pos = 1){
 	my_queuex = obj_sys_global_var.queue_posx1
 	my_queuey = obj_sys_global_var.queue_posy1
+	if(!obj_sys_global_var.customer_pos1_taken){
+		obj_sys_global_var.customer_pos1_taken = true
+	}
 	show_debug_message("! Customer queue position assigned")
 }
 else if(queue_pos = 2){

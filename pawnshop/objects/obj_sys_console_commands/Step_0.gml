@@ -14,9 +14,10 @@ if(spawn_customer){
 #region remove_customer
 if(spawn_customer){
 	if(keyboard_check_pressed(ord("V"))){
-		if(instance_exists(obj_customer)){
-			obj_customer.exiting_queue = true
-		}
+		trigger_customer_exit = true
+	}
+	if(keyboard_check_released(ord("V"))){
+			trigger_customer_exit = false
 	}
 }
 #endregion
