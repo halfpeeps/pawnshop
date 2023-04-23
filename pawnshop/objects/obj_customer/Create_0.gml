@@ -1,5 +1,7 @@
 #region Init
 obj_sys_global_var.customer_queue_count += 1
+
+//setting var
 x = 100
 y = 500
 image_speed = 0
@@ -7,8 +9,6 @@ image_index = 0
 entering_queue = true
 exiting_queue = false
 walk_speed = obj_sys_global_var.customer_walk_speed
-queue_moving = false
-leaving_queue = 0
 
 
 #endregion
