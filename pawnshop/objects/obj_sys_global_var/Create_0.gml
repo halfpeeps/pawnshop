@@ -19,8 +19,6 @@ queue_posy3 = 280
 queue_gap = 50 //set depending on gap in y values above
 
 customer_walk_speed = 2
-queue_moving = false
-customer_pos1_taken = false
 
 
 

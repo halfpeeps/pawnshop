@@ -20,9 +20,6 @@ show_debug_message(queue_pos)
 if(queue_pos = 1){
 	my_queuex = obj_sys_global_var.queue_posx1
 	my_queuey = obj_sys_global_var.queue_posy1
-	if(!obj_sys_global_var.customer_pos1_taken){
-		obj_sys_global_var.customer_pos1_taken = true
-	}
 	show_debug_message("! Customer queue position assigned")
 }
 else if(queue_pos = 2){
