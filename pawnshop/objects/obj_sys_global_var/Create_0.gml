@@ -20,6 +20,6 @@ queue_gap = 50 //set depending on gap in y values above
 
 customer_walk_speed = 2
 
-
+queuespot1_taken = false
 
 #endregion
