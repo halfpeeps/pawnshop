@@ -18,4 +18,9 @@ if(spawn_customer){
 	}
 }
 #endregion
+#region display_cusomer_count
+if(keyboard_check_pressed(ord("B"))){
+	show_debug_message("Current customer queue count: " + string(obj_sys_global_var.customer_queue_count))
+}
+#endregion
 #endregion

@@ -11,8 +11,8 @@ if(!debug_exit_triggeronce){
 	}
 }
 #endregion
-
 #region Queue Movement
+#region Entering/Exiting Queue
 if(entering_queue){
 	if(y > my_queuey){
 		y = y - walk_speed
@@ -28,6 +28,7 @@ if(exiting_queue){
 		y = y + walk_speed
 		image_index = 3
 		if(!exitqueue_triggeronce){
+			obj_sys_global_var.customer_queue_count -= 1
 			if(queue_pos = 1){
 				obj_sys_global_var.queuespot1_taken = false
 			}
@@ -36,11 +37,10 @@ if(exiting_queue){
 	}
 	else
 	{
-		obj_sys_global_var.customer_queue_count -= 1
 		instance_destroy(self)
 	}
 }
-
+#endregion
 #region Moving Up in Queue
 
 if(queue_pos != 1){
@@ -50,6 +50,16 @@ if(queue_pos != 1){
 		moveup_by += queue_gap
 		if(queue_pos = 1){
 			obj_sys_global_var.queuespot1_taken = true
+		}
+	}
+}
+
+if(queue_pos = 3){
+	if(!moveup){
+		if(obj_sys_global_var.customer_queue_count = 2){
+			moveup = true
+			queue_pos -= 1
+			moveup_by += queue_gap
 		}
 	}
 }
@@ -66,5 +76,26 @@ if(moveup){
 }
 
 #endregion
+#region customer stuck
+if(obj_sys_global_var.customer_queue_count = 0){
+	if(!exit_stuck_triggeronce){
+		exit_stuck_triggeronce = true
+		exit_stuck = true
+		show_debug_message("obj_customer " + string(id) + " is stuck, triggering customer exit")
+	}
+}
 
+
+if(exit_stuck)
+{
+	if(y < room_height){
+		y -= 2
+	}
+	else
+	{
+		show_debug_message("obj_customer " + string(id) + " destroyed")
+		instance_destroy()
+	}
+}
+#endregion
 #endregion

@@ -1,9 +1,12 @@
 #region Init
 obj_sys_global_var.customer_queue_count += 1
 
-//setting var
+#region settings
 x = 100
 y = 500
+
+#region var
+#region queue pos/movement
 image_speed = 0
 image_index = 0
 entering_queue = true
@@ -15,7 +18,11 @@ exitqueue_triggeronce = false
 moveup = false
 moveup_by = 0
 queue_gap = obj_sys_global_var.queue_gap
-
+exit_stuck_triggeronce = false
+exit_stuck = false
+#endregion
+#endregion
+#endregion
 
 #endregion
 
