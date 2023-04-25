@@ -56,10 +56,10 @@ else {
 
 #region Animation
 //detect walking
-if(x != xprevious){
+if(x != xprevious){  //if moving (x)
 	is_walking = true
 }
-else if(y != yprevious){
+else if(y != yprevious){  //if moving (y)
 	is_walking = true
 }
 else {
@@ -70,7 +70,7 @@ else {
 //walk animation
 if(is_walking){
 	if(!anim_active){
-		anim_direction = direction_facing
+		anim_direction = direction_facing  //set walk animation direction based off direction facing
 		if(direction_facing = 0){
 			sprite_index = anim_playertest_walk_up
 			was_walking = true
@@ -92,16 +92,16 @@ if(is_walking){
 		anim_active = true
 	}
 }
-else if(was_walking)
+else if(was_walking)  //if player has stopped walking
 {
-	sprite_index = idle_sprite
-	image_speed = 0
-	was_walking = false
-	anim_active = false
+	sprite_index = idle_sprite  //set player to idle sprite
+	image_speed = 0  //stop animation
+	was_walking = false  //reset
+	anim_active = false  //reset
 	//show_debug_message("anim deactivated")
 }
 
-if(is_walking){
+if(is_walking){  //change walk animation based on direction currently facing (for when player changes direction mid walk)
 	if(anim_direction != direction_facing){
 		if(direction_facing = 0){
 			sprite_index = anim_playertest_walk_up

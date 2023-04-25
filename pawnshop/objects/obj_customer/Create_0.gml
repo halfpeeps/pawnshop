@@ -1,39 +1,29 @@
-#region Init
+#region Queue/pos init
 obj_sys_global_var.customer_queue_count += 1
-
-#region settings
 x = 100
 y = 500
-
-#region var
-#region queue pos/movement
 image_speed = 0
 image_index = 0
-entering_queue = true
-exiting_queue = false
+entering_queue = true  //true if instance is entering the queue
+exiting_queue = false  //true if instance is exiting the queue
 walk_speed = obj_sys_global_var.customer_walk_speed
 debug_exit_triggeronce = false
-
 exitqueue_triggeronce = false
-moveup = false
-moveup_by = 0
-queue_gap = obj_sys_global_var.queue_gap
+moveup = false  //true if queue is moving
+moveup_by = 0  //var for number of pixels instance needs to move up by (changes based off number of pixels left)
+queue_gap = obj_sys_global_var.queue_gap  //gap between each customer in the queue (in pixels)
 exit_stuck_triggeronce = false
-exit_stuck = false
-#endregion
-#endregion
-#endregion
-
+exit_stuck = false  //true if instance is stuck and won't leave
 #endregion
 
 
 #region Get Queue Pos
 queue_pos = obj_sys_global_var.customer_queue_count
 if(queue_pos = 1){
-	my_queuex = obj_sys_global_var.queue_posx1
-	my_queuey = obj_sys_global_var.queue_posy1
+	my_queuex = obj_sys_global_var.queue_posx1  //gets x coords from global var
+	my_queuey = obj_sys_global_var.queue_posy1  //gets y coords from global var
 	show_debug_message("! Customer queue position assigned: " + string(queue_pos))
-	obj_sys_global_var.queuespot1_taken = true
+	obj_sys_global_var.queuespot1_taken = true  //true if first in line
 }
 else if(queue_pos = 2){
 	my_queuex = obj_sys_global_var.queue_posx2
