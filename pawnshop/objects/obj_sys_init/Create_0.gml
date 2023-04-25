@@ -1,4 +1,5 @@
 #region Instance Creation
+
 if(!instance_exists(obj_sys_input_default)){
 	instance_create_layer(0, 0, "layer_sys", obj_sys_input_default)
 	show_debug_message("! Default input detection started")
