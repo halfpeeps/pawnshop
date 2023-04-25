@@ -1,0 +1,5 @@
+[Game release (1, 2) | Major Release | Minor Release | Dev/Public (1 - dev, 0 public)]
+
+0.0.1.1
+-Added player movent
+-Added customer queue line (spawn with C, remove with V)

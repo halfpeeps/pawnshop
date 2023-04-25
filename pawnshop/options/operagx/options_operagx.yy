@@ -8,7 +8,7 @@
   "option_operagx_guid": "aa10240b-c19d-43e0-a1d9-cd8a2ed461be",
   "option_operagx_internalShareUrl": "",
   "option_operagx_interpolate_pixels": true,
-  "option_operagx_next_version": "1.0.0.2",
+  "option_operagx_next_version": "0.0.1.1",
   "option_operagx_publicShareUrl": "",
   "option_operagx_scale": 0,
   "option_operagx_team_id": "93265045-b064-48c6-84cd-5633a140bcb6",

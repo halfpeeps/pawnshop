@@ -70,6 +70,7 @@
     {"id":{"name":"anim_playertest_walk_down","path":"sprites/anim_playertest_walk_down/anim_playertest_walk_down.yy",},},
     {"id":{"name":"nte_legacy_queuemovement_01","path":"notes/nte_legacy_queuemovement_01/nte_legacy_queuemovement_01.yy",},},
     {"id":{"name":"spr_trigger_customer_counter","path":"sprites/spr_trigger_customer_counter/spr_trigger_customer_counter.yy",},},
+    {"id":{"name":"nte_release","path":"notes/nte_release/nte_release.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
   ],
   "RoomOrderNodes": [

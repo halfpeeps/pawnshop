@@ -43,5 +43,6 @@
     {"name":"rm_tes_01","order":1,"path":"rooms/rm_tes_01/rm_tes_01.yy",},
     {"name":"spr_counter_02","order":2,"path":"sprites/spr_counter_02/spr_counter_02.yy",},
     {"name":"obj_sys_solid","order":5,"path":"objects/obj_sys_solid/obj_sys_solid.yy",},
+    {"name":"nte_release","order":2,"path":"notes/nte_release/nte_release.yy",},
   ],
 }
