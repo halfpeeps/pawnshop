@@ -38,6 +38,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_trigger","folderPath":"folders/Sprites/spr_trigger.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_pawnables","folderPath":"folders/Sprites/spr_pawnables.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_sheets","folderPath":"folders/Sprites/spr_sheets.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,

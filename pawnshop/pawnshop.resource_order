@@ -27,6 +27,8 @@
     {"name":"spr_trigger","order":4,"path":"folders/Sprites/spr_trigger.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"spr_pawnables","order":6,"path":"folders/Sprites/spr_pawnables.yy",},
+    {"name":"spr_sheets","order":7,"path":"folders/Sprites/spr_sheets.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_customer","order":10,"path":"objects/obj_customer/obj_customer.yy",},
@@ -41,6 +43,5 @@
     {"name":"rm_tes_01","order":1,"path":"rooms/rm_tes_01/rm_tes_01.yy",},
     {"name":"spr_counter_02","order":2,"path":"sprites/spr_counter_02/spr_counter_02.yy",},
     {"name":"obj_sys_solid","order":5,"path":"objects/obj_sys_solid/obj_sys_solid.yy",},
-    {"name":"spr_sheet_playertest","order":1,"path":"sprites/spr_sheet_playertest/spr_sheet_playertest.yy",},
   ],
 }
