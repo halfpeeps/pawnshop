@@ -55,7 +55,8 @@ is_pawning = true  //currently set to true for debug
 
 #region Set pawnable item
 if(is_pawning = true){
-
-	
+	instance_create_layer(0, 0, "layer_sys", obj_sys_item_lib)
+	held_item = scr_select_pawnable()
+	show_debug_message("held item: " + string(held_item))
 }
 #endregion
