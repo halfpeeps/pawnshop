@@ -45,3 +45,17 @@ else
 #endregion
 
 show_debug_message("! Current customer queue count: " + string(obj_sys_global_var.customer_queue_count))
+
+#region pawn/sell/buy init
+//init reason for entering store
+is_selling = false
+is_buying = false
+is_pawning = true  //currently set to true for debug
+#endregion
+
+#region Set pawnable item
+if(is_pawning = true){
+
+	
+}
+#endregion
