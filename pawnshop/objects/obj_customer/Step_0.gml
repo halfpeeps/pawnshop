@@ -100,3 +100,20 @@ if(exit_stuck)
 }
 #endregion
 #endregion
+#region Item Movement
+if(is_pawning){
+	item_follow = true
+}
+else if(is_selling){
+	item_follow = true
+}
+else{
+	item_follow = false
+}
+
+if(item_follow){
+	held_item.x = x + 28
+	held_item.y = y - 18
+}
+
+#endregion

@@ -57,6 +57,9 @@ is_pawning = true  //currently set to true for debug
 if(is_pawning = true){
 	instance_create_layer(0, 0, "layer_sys", obj_sys_item_lib)
 	held_item = scr_select_pawnable()
-	show_debug_message("held item: " + string(held_item))
+	instance_create_layer(x, y, "layer_sys", held_item)
+	held_item.image_xscale = .3
+	held_item.image_yscale = .3
+	held_item.image_speed = 0
 }
 #endregion
