@@ -37,6 +37,8 @@ if(exiting_queue){
 	}
 	else
 	{
+		instance_destroy(hitbox)
+		instance_destroy(held_item)
 		instance_destroy(self)
 	}
 }
@@ -95,6 +97,8 @@ if(exit_stuck)
 	else
 	{
 		show_debug_message("obj_customer " + string(id) + " destroyed")
+		instance_destroy(hitbox)
+		instance_destroy(held_item)
 		instance_destroy()  //destroy instance
 	}
 }
@@ -116,4 +120,10 @@ if(item_follow){
 	held_item.y = y - 18
 }
 
+#endregion
+#region Move Hitbox
+if(instance_exists(obj_customer_hitbox)){
+	hitbox.x = x
+	hitbox.y = y + 12
+}
 #endregion
