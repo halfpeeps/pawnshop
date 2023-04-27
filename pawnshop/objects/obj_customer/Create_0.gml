@@ -55,7 +55,7 @@ is_pawning = true  //currently set to true for debug
 
 #region Set pawnable item
 if(is_pawning = true){
-	instance_create_layer(0, 0, "layer_sys", obj_sys_item_lib)
+	instance_create_layer(0, 0, "layer_ingame_ui", obj_sys_item_lib)
 	held_item = scr_select_pawnable()
 	instance_create_layer(x, y, "layer_sys", held_item)
 	held_item.image_xscale = .3

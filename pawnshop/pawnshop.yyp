@@ -103,7 +103,7 @@
     {"id":{"name":"spr_floor_wood1_diag","path":"sprites/spr_floor_wood1_diag/spr_floor_wood1_diag.yy",},},
     {"id":{"name":"obj_lamp_large_01","path":"objects/obj_lamp_large_01/obj_lamp_large_01.yy",},},
     {"id":{"name":"spr_lamp_large_04","path":"sprites/spr_lamp_large_04/spr_lamp_large_04.yy",},},
-    {"id":{"name":"rm_tes_01","path":"rooms/rm_tes_01/rm_tes_01.yy",},},
+    {"id":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"id":{"name":"obj_vintage_sign","path":"objects/obj_vintage_sign/obj_vintage_sign.yy",},},
     {"id":{"name":"spr_lamp_small_01","path":"sprites/spr_lamp_small_01/spr_lamp_small_01.yy",},},
     {"id":{"name":"spr_lamp_small_03","path":"sprites/spr_lamp_small_03/spr_lamp_small_03.yy",},},
@@ -136,7 +136,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
-    {"roomId":{"name":"rm_tes_01","path":"rooms/rm_tes_01/rm_tes_01.yy",},},
+    {"roomId":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
