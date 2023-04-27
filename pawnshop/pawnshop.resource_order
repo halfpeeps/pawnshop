@@ -95,6 +95,7 @@
     {"name":"spr_table_expensive_bedside","order":1,"path":"sprites/spr_table_expensive_bedside/spr_table_expensive_bedside.yy",},
     {"name":"spr_lamp_small_06","order":5,"path":"sprites/spr_lamp_small_06/spr_lamp_small_06.yy",},
     {"name":"obj_table_expenisve_bedside","order":4,"path":"objects/obj_table_expenisve_bedside/obj_table_expenisve_bedside.yy",},
+    {"name":"scr_select_pawnable_skin","order":1,"path":"scripts/scr_select_pawnable_skin/scr_select_pawnable_skin.yy",},
     {"name":"obj_lamp_large_04","order":3,"path":"objects/obj_lamp_large_04/obj_lamp_large_04.yy",},
     {"name":"spr_lamp_large_08","order":16,"path":"sprites/spr_lamp_large_08/spr_lamp_large_08.yy",},
     {"name":"spr_lamp_small_02","order":1,"path":"sprites/spr_lamp_small_02/spr_lamp_small_02.yy",},

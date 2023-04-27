@@ -61,6 +61,7 @@ if(is_pawning = true){
 	held_item.image_xscale = .3
 	held_item.image_yscale = .3
 	held_item.image_speed = 0
+	scr_select_pawnable_skin(held_item)
 }
 #endregion
 

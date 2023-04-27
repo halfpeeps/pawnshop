@@ -127,6 +127,7 @@
     {"id":{"name":"spr_lamp_small_06","path":"sprites/spr_lamp_small_06/spr_lamp_small_06.yy",},},
     {"id":{"name":"obj_table_expenisve_bedside","path":"objects/obj_table_expenisve_bedside/obj_table_expenisve_bedside.yy",},},
     {"id":{"name":"nte_legacy_queuemovement_01","path":"notes/nte_legacy_queuemovement_01/nte_legacy_queuemovement_01.yy",},},
+    {"id":{"name":"scr_select_pawnable_skin","path":"scripts/scr_select_pawnable_skin/scr_select_pawnable_skin.yy",},},
     {"id":{"name":"spr_trigger_customer_counter","path":"sprites/spr_trigger_customer_counter/spr_trigger_customer_counter.yy",},},
     {"id":{"name":"obj_lamp_large_04","path":"objects/obj_lamp_large_04/obj_lamp_large_04.yy",},},
     {"id":{"name":"spr_lamp_large_08","path":"sprites/spr_lamp_large_08/spr_lamp_large_08.yy",},},
