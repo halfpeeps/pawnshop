@@ -101,5 +101,6 @@
     {"name":"spr_lamp_small_02","order":1,"path":"sprites/spr_lamp_small_02/spr_lamp_small_02.yy",},
     {"name":"spr_lamp_large_03","order":11,"path":"sprites/spr_lamp_large_03/spr_lamp_large_03.yy",},
     {"name":"nte_release","order":2,"path":"notes/nte_release/nte_release.yy",},
+    {"name":"scr_destroy_customer","order":2,"path":"scripts/scr_destroy_customer/scr_destroy_customer.yy",},
   ],
 }

@@ -135,6 +135,7 @@
     {"id":{"name":"spr_lamp_large_03","path":"sprites/spr_lamp_large_03/spr_lamp_large_03.yy",},},
     {"id":{"name":"nte_release","path":"notes/nte_release/nte_release.yy",},},
     {"id":{"name":"obj_table_expensive","path":"objects/obj_table_expensive/obj_table_expensive.yy",},},
+    {"id":{"name":"scr_destroy_customer","path":"scripts/scr_destroy_customer/scr_destroy_customer.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
   ],
   "RoomOrderNodes": [

@@ -37,9 +37,7 @@ if(exiting_queue){
 	}
 	else
 	{
-		instance_destroy(hitbox)
-		instance_destroy(held_item)
-		instance_destroy(self)
+		scr_destroy_customer(id, hitbox.id, held_item.id)
 	}
 }
 #endregion
@@ -88,6 +86,13 @@ if(obj_sys_global_var.customer_queue_count = 0){  //if customers exist when glob
 	}
 }
 
+if(image_index = 3){
+	if(y = yprevious){
+		exit_stuck_triggeronce = true
+		exit_stuck = true
+		show_debug_message("obj_customer " + string(id) + " is stuck, triggering customer exit")
+	}
+}
 
 if(exit_stuck)
 {
@@ -96,10 +101,10 @@ if(exit_stuck)
 	}
 	else
 	{
-		show_debug_message("obj_customer " + string(id) + " destroyed")
-		instance_destroy(hitbox)
-		instance_destroy(held_item)
-		instance_destroy()  //destroy instance
+		if(obj_sys_global_var.customer_queue_count > 0){
+			obj_sys_global_var.customer_queue_count -= 1
+		}
+		scr_destroy_customer(id, hitbox.id, held_item.id)
 	}
 }
 #endregion
