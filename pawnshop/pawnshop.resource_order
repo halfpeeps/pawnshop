@@ -81,7 +81,7 @@
     {"name":"spr_floor_wood1_diag","order":1,"path":"sprites/spr_floor_wood1_diag/spr_floor_wood1_diag.yy",},
     {"name":"spr_lamp_large_04","order":12,"path":"sprites/spr_lamp_large_04/spr_lamp_large_04.yy",},
     {"name":"rm_shop","order":1,"path":"rooms/rm_shop/rm_shop.yy",},
-    {"name":"obj_vintage_sign","order":12,"path":"objects/obj_vintage_sign/obj_vintage_sign.yy",},
+    {"name":"obj_vintage_sign","order":5,"path":"objects/obj_vintage_sign/obj_vintage_sign.yy",},
     {"name":"spr_lamp_small_03","order":2,"path":"sprites/spr_lamp_small_03/spr_lamp_small_03.yy",},
     {"name":"obj_painting","order":2,"path":"objects/obj_painting/obj_painting.yy",},
     {"name":"spr_counter_02","order":1,"path":"sprites/spr_counter_02/spr_counter_02.yy",},
