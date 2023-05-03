@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_init",
+  "name": "legacy_rm_init",
   "creationCodeFile": "${project_dir}/rooms/rm_init/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
