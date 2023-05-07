@@ -6,6 +6,7 @@
     {"name":"anim_player_walkcycles","order":4,"path":"folders/Animations/anim_player/anim_player_walkcycles.yy",},
     {"name":"Extensions","order":8,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":4,"path":"folders/Fonts.yy",},
+    {"name":"Legacy","order":11,"path":"folders/Legacy.yy",},
     {"name":"Notes","order":7,"path":"folders/Notes.yy",},
     {"name":"legacy_code","order":1,"path":"folders/Notes/legacy_code.yy",},
     {"name":"obj_customer","order":1,"path":"folders/Notes/legacy_code/obj_customer.yy",},
@@ -31,7 +32,6 @@
     {"name":"spr_sheets","order":5,"path":"folders/Sprites/spr_sheets.yy",},
     {"name":"spr_trigger","order":2,"path":"folders/Sprites/spr_trigger.yy",},
     {"name":"Timelines","order":5,"path":"folders/Timelines.yy",},
-    {"name":"Legacy","order":11,"path":"folders/Legacy.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_customer","order":10,"path":"objects/obj_customer/obj_customer.yy",},
