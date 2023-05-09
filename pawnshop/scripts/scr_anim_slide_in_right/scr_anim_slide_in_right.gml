@@ -1,4 +1,4 @@
-function scr_anim_slide_in_left(obj, move_to_y){
+function scr_anim_slide_in_right(obj, move_to_y, anim_speed){
 	
 	var _move_stop_calc = obj.y - move_to_y
 	var _move_mode = 0
@@ -17,22 +17,26 @@ function scr_anim_slide_in_left(obj, move_to_y){
 		_move_mode = 1
 	}
 	
-
+	var _speed_stage_4 = anim_speed * obj_sys_global.speed_stage_4
+	var _speed_stage_3 = anim_speed * obj_sys_global.speed_stage_3
+	var _speed_stage_2 = anim_speed * obj_sys_global.speed_stage_2
+	var _speed_stage_1 = anim_speed * obj_sys_global.speed_stage_1
+	
 	switch(_move_mode){
 		case 4:
-			_move_by = obj_sys_global.speed_stage_4
+			_move_by = _speed_stage_4
 		break;
 		
 		case 3:
-			_move_by = obj_sys_global.speed_stage_3
+			_move_by = _speed_stage_3
 		break;
 		
 		case 2:
-			_move_by = obj_sys_global.speed_stage_2
+			_move_by = _speed_stage_2
 		break;
 		
 		case 1:
-			_move_by = obj_sys_global.speed_stage_1
+			_move_by = _speed_stage_1
 		break;
 		
 		case 0:
